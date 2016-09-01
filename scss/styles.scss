@@ -100,9 +100,17 @@ $desktop-width: 1024px;
     }
   }
   .countdown {
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
     position: absolute;
     right: 0;
     top: 30px;
+    img.countdown-banner {
+      width: 100%;
+      height: auto;
+
+    }
   }
 }
 .social-media {
@@ -162,6 +170,7 @@ img.mySlides {
 }
 //slide show controls
 
+//container-2
 .container-2{
   max-width: 800px;
   min-width: 350px;
@@ -182,9 +191,12 @@ img.mySlides {
   .blue{
     color: #3F5265;
     font-family: arial black;
+    width: 50%;
   }
 }
+//end container-2
 
+//container-3
 .container-3 {
   width: 100%;
   margin-left: auto;
@@ -208,6 +220,7 @@ img.mySlides {
     margin-top: 30px;
   }
 }
+//end container-3
 
 //event card
 .event-card {
@@ -302,6 +315,60 @@ img.mySlides {
 }
 //end container-4
 
+//container-5
+.container-5 {
+  max-width: 850px;
+  min-width: 350px;
+  margin: auto;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  h1 {
+    text-align: center;
+    font-family: birch std;
+    color: #30769A;
+    margin: 30px 0px;
+
+  }
+  .carousel {
+    width: 100%;
+    padding-bottom: 30px;
+    .carousel-cell {
+      padding: 0 20px;
+    }
+  }
+}
+//end container-5
+
+//footer
+footer {
+background-image: url("../img/blue-mountains.png");
+width: 100%;
+text-align: center;
+color: white;
+font-style: 12px;
+font-family: arial;
+font-weight: 100;
+p {
+  margin-top: 15px;
+}
+.footer-spans {
+  margin-top: 15px;
+}
+span {
+  padding: 10px;
+}
+img {
+  margin-top: 30px;
+}
+.copyright {
+  padding-bottom: 15px;
+    img {
+      margin-top: 0px;
+    }
+  }
+}
+//end footer
+
 //tablet breakpoint added styles
 @include tablet {
   .top-header {
@@ -380,8 +447,6 @@ img.mySlides {
     }
   }
 }
-
-
 //end tablet
 
 //desktop breakpoint added styles//
@@ -427,6 +492,7 @@ img.mySlides {
   .circle-navigation {
     display: none;
   }
+
   .container-4 {
     .fairgrounds {
       position: absolute;
@@ -435,7 +501,6 @@ img.mySlides {
       width: 50%;
     }
     .social-box {
-
       background-color: white;
       height: 400px;
       display: block;

@@ -72,9 +72,15 @@
       padding-right: 2px;
       box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75); }
   .container .countdown {
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
     position: absolute;
     right: 0;
     top: 30px; }
+    .container .countdown img.countdown-banner {
+      width: 100%;
+      height: auto; }
 
 .social-media {
   display: none; }
@@ -143,7 +149,8 @@ img.mySlides {
     float: right; }
   .container-2 .blue {
     color: #3F5265;
-    font-family: arial black; }
+    font-family: arial black;
+    width: 50%; }
 
 .container-3 {
   width: 100%;
@@ -242,6 +249,44 @@ img.mySlides {
       float: left; }
   .container-4 .social-box {
     display: none; }
+
+.container-5 {
+  max-width: 850px;
+  min-width: 350px;
+  margin: auto;
+  padding-bottom: 30px;
+  margin-bottom: 30px; }
+  .container-5 h1 {
+    text-align: center;
+    font-family: birch std;
+    color: #30769A;
+    margin: 30px 0px; }
+  .container-5 .carousel {
+    width: 100%;
+    padding-bottom: 30px; }
+    .container-5 .carousel .carousel-cell {
+      padding: 0 20px; }
+
+footer {
+  background-image: url("../img/blue-mountains.png");
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-style: 12px;
+  font-family: arial;
+  font-weight: 100; }
+  footer p {
+    margin-top: 15px; }
+  footer .footer-spans {
+    margin-top: 15px; }
+  footer span {
+    padding: 10px; }
+  footer img {
+    margin-top: 30px; }
+  footer .copyright {
+    padding-bottom: 15px; }
+    footer .copyright img {
+      margin-top: 0px; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .top-header {
