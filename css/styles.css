@@ -9,7 +9,6 @@
 
 .blue-header {
   background-image: url("../img/blue-header.png");
-  background-repeat: no-repeat;
   height: 66px;
   width: 100%; }
   .blue-header .top-header {
@@ -86,7 +85,7 @@
   display: none; }
 
 .slideshow {
-  max-width: 800px;
+  max-width: 1400;
   min-width: 350px;
   margin: auto;
   margin-top: 21px; }
@@ -132,7 +131,7 @@ img.mySlides {
   cursor: pointer; }
 
 .container-2 {
-  max-width: 800px;
+  max-width: 1400;
   min-width: 350px;
   margin: auto;
   padding-top: 20px;
