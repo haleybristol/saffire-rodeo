@@ -34,10 +34,10 @@ $desktop-width: 1024px;
     padding-left: 10px;
     position: relative;
     height: 80px;
-    width: 400px;
+    width: 600px;
     .header-info {
       position: absolute;
-      right: 100px;
+      right: 200px;
       top: 0;
       .small {
         text-decoration: none;
@@ -98,19 +98,9 @@ $desktop-width: 1024px;
       box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75)
     }
   }
-  .countdown {
-    margin: auto;
-    max-width: 350px;
-    min-width: 100px;
-    position: absolute;
-    right: 0;
-    top: 30px;
-    img.countdown-banner {
-      width: 100%;
-      height: auto;
-
-    }
-  }
+}
+.countdown {
+  display: none;
 }
 .social-media {
   display: none;
@@ -119,7 +109,6 @@ $desktop-width: 1024px;
 
 //slide show content
 .slideshow {
-  max-width: 1200;
   min-width: 350px;
   margin: auto;
   margin-top: 21px;
@@ -129,6 +118,7 @@ $desktop-width: 1024px;
 }
 img.mySlides {
   width: 100%;
+  margin: auto;
   height: auto;
 }
 //end slide show content
@@ -171,11 +161,9 @@ img.mySlides {
 
 //container-2
 .container-2{
-  max-width: 1200;
-  min-width: 350px;
-  margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
   .red-button {
     font-family: DIN condensed;
     color: white;
@@ -184,13 +172,21 @@ img.mySlides {
     padding-top: 6px;
     padding-left: 4px;
     padding-right: 4px;
-    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+  }
+  .more {
     float: right;
+    margin-right: 50px;
+  }
+  .buy {
+    margin-left: 50px;
   }
   .blue{
     color: #3F5265;
     font-family: arial black;
-    width: 50%;
+    width: 100%;
   }
 }
 //end container-2
@@ -212,7 +208,7 @@ img.mySlides {
     margin-bottom: -35px;
   }
   .four-panel {
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -316,7 +312,7 @@ img.mySlides {
 
 //container-5
 .container-5 {
-  max-width: 1000px;
+  max-width: 1200px;
   min-width: 350px;
   margin: auto;
   padding-bottom: 30px;
@@ -329,7 +325,7 @@ img.mySlides {
 
   }
   .carousel {
-    width: 750%;
+    width: 100%;
     padding-bottom: 30px;
     .carousel-cell {
       padding: 0 20px;
@@ -381,13 +377,13 @@ img {
   }
   .left {
     position: absolute;
-    left: 1%;
+    left: -8%;
     bottom: 50%;
   }
 
   .right {
     position: absolute;
-    right: 1%;
+    right: -8%;
     bottom: 50%;
   }
   .saffire-logo {
@@ -401,6 +397,20 @@ img {
       display: block;
       width: 100%;
       height: auto;
+    }
+  }
+  .countdown {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    img.countdown-banner {
+      width: 100%;
+      height: auto;
+
     }
   }
   .circle-navigation {
@@ -445,11 +455,17 @@ img {
       }
     }
   }
+  .slideshow {
+    max-width: 75%;
+  }
 }
 //end tablet
 
 //desktop breakpoint added styles//
 @include desktop {
+  .slideshow {
+    max-width: 75%;
+  }
   .top-header {
     margin-right: 50px;
   }
@@ -461,12 +477,12 @@ img {
   }
   .left {
     position: absolute;
-    left: -10%;
+    left: -8%;
     bottom: 50%;
   }
   .right {
     position: absolute;
-    right: -10%;
+    right: -8%;
     bottom: 50%;
   }
   .saffire-logo {
@@ -480,6 +496,20 @@ img {
       display: block;
       width: 100%;
       height: auto;
+    }
+  }
+  .countdown {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    img.countdown-banner {
+      width: 100%;
+      height: auto;
+
     }
   }
   .social-media {

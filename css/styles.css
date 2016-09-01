@@ -17,10 +17,10 @@
     padding-left: 10px;
     position: relative;
     height: 80px;
-    width: 400px; }
+    width: 600px; }
     .blue-header .top-header .header-info {
       position: absolute;
-      right: 100px;
+      right: 200px;
       top: 0; }
       .blue-header .top-header .header-info .small {
         text-decoration: none;
@@ -70,22 +70,14 @@
       padding-left: 2px;
       padding-right: 2px;
       box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75); }
-  .container .countdown {
-    margin: auto;
-    max-width: 350px;
-    min-width: 100px;
-    position: absolute;
-    right: 0;
-    top: 30px; }
-    .container .countdown img.countdown-banner {
-      width: 100%;
-      height: auto; }
+
+.countdown {
+  display: none; }
 
 .social-media {
   display: none; }
 
 .slideshow {
-  max-width: 1200;
   min-width: 350px;
   margin: auto;
   margin-top: 21px; }
@@ -95,6 +87,7 @@
 
 img.mySlides {
   width: 100%;
+  margin: auto;
   height: auto; }
 
 .bottom {
@@ -131,11 +124,9 @@ img.mySlides {
   cursor: pointer; }
 
 .container-2 {
-  max-width: 1200;
-  min-width: 350px;
-  margin: auto;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  text-align: center; }
   .container-2 .red-button {
     font-family: DIN condensed;
     color: white;
@@ -144,12 +135,18 @@ img.mySlides {
     padding-top: 6px;
     padding-left: 4px;
     padding-right: 4px;
-    margin-left: 5px;
-    float: right; }
+    width: 100px;
+    height: 30px;
+    text-align: center; }
+  .container-2 .more {
+    float: right;
+    margin-right: 50px; }
+  .container-2 .buy {
+    margin-left: 50px; }
   .container-2 .blue {
     color: #3F5265;
     font-family: arial black;
-    width: 50%; }
+    width: 100%; }
 
 .container-3 {
   width: 100%;
@@ -166,7 +163,7 @@ img.mySlides {
     padding-top: 45px;
     margin-bottom: -35px; }
   .container-3 .four-panel {
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -250,7 +247,7 @@ img.mySlides {
     display: none; }
 
 .container-5 {
-  max-width: 1000px;
+  max-width: 1200px;
   min-width: 350px;
   margin: auto;
   padding-bottom: 30px;
@@ -261,7 +258,7 @@ img.mySlides {
     color: #30769A;
     margin: 30px 0px; }
   .container-5 .carousel {
-    width: 750%;
+    width: 100%;
     padding-bottom: 30px; }
     .container-5 .carousel .carousel-cell {
       padding: 0 20px; }
@@ -299,12 +296,12 @@ footer {
 
   .left {
     position: absolute;
-    left: 1%;
+    left: -8%;
     bottom: 50%; }
 
   .right {
     position: absolute;
-    right: 1%;
+    right: -8%;
     bottom: 50%; }
 
   .saffire-logo {
@@ -316,6 +313,18 @@ footer {
     min-width: 100px; }
     .saffire-logo img.logo {
       display: block;
+      width: 100%;
+      height: auto; }
+
+  .countdown {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    top: 30px; }
+    .countdown img.countdown-banner {
       width: 100%;
       height: auto; }
 
@@ -353,8 +362,14 @@ footer {
         width: 290px;
         background: white;
         padding: 10px;
-        font-family: arial; } }
+        font-family: arial; }
+
+  .slideshow {
+    max-width: 75%; } }
 @media (min-width: 1024px) {
+  .slideshow {
+    max-width: 75%; }
+
   .top-header {
     margin-right: 50px; }
 
@@ -366,12 +381,12 @@ footer {
 
   .left {
     position: absolute;
-    left: -10%;
+    left: -8%;
     bottom: 50%; }
 
   .right {
     position: absolute;
-    right: -10%;
+    right: -8%;
     bottom: 50%; }
 
   .saffire-logo {
@@ -383,6 +398,18 @@ footer {
     min-width: 100px; }
     .saffire-logo img.logo {
       display: block;
+      width: 100%;
+      height: auto; }
+
+  .countdown {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    min-width: 100px;
+    position: absolute;
+    right: 0;
+    top: 30px; }
+    .countdown img.countdown-banner {
       width: 100%;
       height: auto; }
 
