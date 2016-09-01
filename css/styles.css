@@ -1,0 +1,384 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, html, body {
+  padding: 0;
+  margin: 0; }
+
+.blue-header {
+  background-image: url("../img/blue-header.png");
+  background-repeat: no-repeat;
+  height: 66px;
+  width: 100%; }
+  .blue-header .top-header {
+    float: right;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: relative;
+    height: 80px;
+    width: 400px; }
+    .blue-header .top-header .header-info {
+      position: absolute;
+      right: 100px;
+      top: 0; }
+      .blue-header .top-header .header-info .small {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        float: right;
+        padding: 5px 10px;
+        font-size: 9px;
+        font-family: arial; }
+      .blue-header .top-header .header-info span.underline {
+        text-decoration: underline;
+        font-weight: lighter; }
+    .blue-header .top-header .ticket {
+      position: absolute;
+      right: 0;
+      top: 8px; }
+    .blue-header .top-header .info-buttons {
+      position: absolute;
+      right: 110px;
+      top: 28px; }
+
+.saffire-logo {
+  display: none; }
+  .saffire-logo img.logo {
+    display: none; }
+
+.background-slider {
+  width: 100%;
+  background-image: url("../img/mountains.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container {
+  position: relative; }
+  .container .button-navigation {
+    position: absolute;
+    top: -20px;
+    right: 10px; }
+    .container .button-navigation .orange-button {
+      background: #FEC524;
+      color: #AF161F;
+      font-family: DIN condensed;
+      border: 4px solid #FEC524;
+      border-radius: 4px;
+      margin-left: 2px;
+      padding-top: 5px;
+      padding-left: 2px;
+      padding-right: 2px;
+      box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75); }
+  .container .countdown {
+    position: absolute;
+    right: 0;
+    top: 30px; }
+
+.social-media {
+  display: none; }
+
+.slideshow {
+  max-width: 800px;
+  min-width: 350px;
+  margin: auto;
+  margin-top: 21px; }
+
+.mySlides {
+  display: none; }
+
+img.mySlides {
+  width: 100%;
+  height: auto; }
+
+.bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+.circle {
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+  height: 18px; }
+
+.center {
+  text-align: center !important; }
+
+.white, .hover-white:hover {
+  background-color: white !important; }
+
+.transparent {
+  background-color: transparent !important; }
+
+.border {
+  border: 1px solid white; }
+
+.arrows {
+  display: none; }
+
+.left, .right, .circle {
+  cursor: pointer; }
+
+.container-2 {
+  max-width: 800px;
+  min-width: 350px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .container-2 .red-button {
+    font-family: DIN condensed;
+    color: white;
+    background: #AF161F;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 5px;
+    float: right; }
+  .container-2 .blue {
+    color: #3F5265;
+    font-family: arial black; }
+
+.container-3 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/tan-mountains.png");
+  background-size: cover;
+  height: 470px; }
+  .container-3 .birch {
+    font-family: Birch Std;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -35px; }
+  .container-3 .four-panel {
+    max-width: 820px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; }
+
+.event-card {
+  font-family: "Inconsolata";
+  position: relative;
+  height: 233px;
+  width: 200px;
+  overflow: hidden;
+  border: 8px solid white;
+  float: left; }
+
+.event-card .event-img {
+  width: 100%;
+  height: auto; }
+
+.event-card .event-info {
+  position: absolute;
+  top: 168px;
+  height: 233px;
+  width: 188px;
+  color: white;
+  font-family: arial black;
+  font-weight: lighter;
+  opacity: 0.9;
+  transition: transform 1s; }
+
+.event-card .event-info:hover {
+  transform: translateY(-160px); }
+
+.details-title {
+  margin-left: 10px; }
+
+.event-card .event-info .details-body {
+  padding: 10px;
+  margin-top: 10px; }
+
+.red-card {
+  background-color: #AF161F; }
+
+.blue-card {
+  background-color: #3585B7; }
+
+.container-4 {
+  background-image: url("../img/blue-mountains.png");
+  width: 100%;
+  background-size: cover;
+  margin: auto;
+  height: 470px; }
+  .container-4 .cool-stuff {
+    position: relative;
+    max-width: 850px;
+    min-width: 350px;
+    margin: auto; }
+  .container-4 .birch-blue {
+    font-family: birch std;
+    color: #1D485F;
+    font-size: 45px;
+    padding-top: 45px; }
+  .container-4 .fairgrounds {
+    background: #1D485F;
+    color: white;
+    padding: 25px;
+    width: 100%;
+    height: auto;
+    border: 1px solid gray; }
+    .container-4 .fairgrounds h2 {
+      font-family: birch std;
+      font-size: 26px;
+      letter-spacing: .1em; }
+    .container-4 .fairgrounds p {
+      font-family: arial;
+      font-size: 14px; }
+    .container-4 .fairgrounds img {
+      padding-right: 20px;
+      padding-bottom: 20px;
+      float: left; }
+  .container-4 .social-box {
+    display: none; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .top-header {
+    margin-right: 50px; }
+
+  .arrows {
+    display: block; }
+
+  .text-white {
+    color: white; }
+
+  .left {
+    position: absolute;
+    left: 1%;
+    bottom: 50%; }
+
+  .right {
+    position: absolute;
+    right: 1%;
+    bottom: 50%; }
+
+  .saffire-logo {
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: -60px;
+    max-width: 300px;
+    min-width: 100px; }
+    .saffire-logo img.logo {
+      display: block;
+      width: 100%;
+      height: auto; }
+
+  .circle-navigation {
+    display: none; }
+
+  .birch {
+    font-size: 80px; }
+
+  .container-4 .fairgrounds {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 50%; }
+  .container-4 .social-box {
+    background-color: white;
+    height: 400px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 30px; }
+    .container-4 .social-box .box {
+      width: 100%; }
+      .container-4 .social-box .box img {
+        position: absolute;
+        top: 150;
+        right: 20px; }
+      .container-4 .social-box .box p {
+        position: absolute;
+        top: 260px;
+        right: 20px;
+        height: 100px;
+        border: 3px solid white;
+        overflow: auto;
+        width: 290px;
+        background: white;
+        padding: 10px;
+        font-family: arial; } }
+@media (min-width: 1024px) {
+  .top-header {
+    margin-right: 50px; }
+
+  .arrows {
+    display: block; }
+
+  .text-white {
+    color: white; }
+
+  .left {
+    position: absolute;
+    left: -10%;
+    bottom: 50%; }
+
+  .right {
+    position: absolute;
+    right: -10%;
+    bottom: 50%; }
+
+  .saffire-logo {
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: -60px;
+    max-width: 300px;
+    min-width: 100px; }
+    .saffire-logo img.logo {
+      display: block;
+      width: 100%;
+      height: auto; }
+
+  .social-media {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 100px; }
+
+  .circle-navigation {
+    display: none; }
+
+  .container-4 .fairgrounds {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 50%; }
+  .container-4 .social-box {
+    background-color: white;
+    height: 400px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 30px; }
+    .container-4 .social-box .box {
+      width: 100%; }
+      .container-4 .social-box .box img {
+        position: absolute;
+        top: 150;
+        right: 20px; }
+      .container-4 .social-box .box p {
+        position: absolute;
+        top: 260px;
+        right: 20px;
+        height: 100px;
+        border: 3px solid white;
+        overflow: auto;
+        width: 290px;
+        background: white;
+        padding: 10px;
+        font-family: arial; } }
+
+/*# sourceMappingURL=styles.css.map */
