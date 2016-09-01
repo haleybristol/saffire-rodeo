@@ -85,7 +85,7 @@
   display: none; }
 
 .slideshow {
-  max-width: 1000;
+  max-width: 1200;
   min-width: 350px;
   margin: auto;
   margin-top: 21px; }
@@ -131,7 +131,7 @@ img.mySlides {
   cursor: pointer; }
 
 .container-2 {
-  max-width: 1000;
+  max-width: 1200;
   min-width: 350px;
   margin: auto;
   padding-top: 20px;
@@ -157,16 +157,16 @@ img.mySlides {
   margin-right: auto;
   background-image: url("../img/tan-mountains.png");
   background-size: cover;
-  height: 470px; }
+  height: 450px; }
   .container-3 .birch {
     font-family: Birch Std;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 45px;
     margin-bottom: -35px; }
   .container-3 .four-panel {
-    max-width: 820px;
+    max-width: 1200px;
     min-width: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -261,7 +261,7 @@ img.mySlides {
     color: #30769A;
     margin: 30px 0px; }
   .container-5 .carousel {
-    width: 100%;
+    width: 750%;
     padding-bottom: 30px; }
     .container-5 .carousel .carousel-cell {
       padding: 0 20px; }
